@@ -120,6 +120,18 @@ class PrintTask extends BasePrintTask
         return $this;
     }
 
+    public function sides(string $sides): self
+    {
+        /*
+            one-sided (default)
+            two-sided-long-edge
+            two-sided-short-edge
+        */
+        $this->job->setSides($sides);
+
+        return $this;
+    }
+
     public function send(): PrintJob
     {
         if (! $this->printerId || ! isset($this->printer)) {
