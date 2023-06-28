@@ -28,6 +28,7 @@
         "mike42/escpos-php": "^3.0",
         "php-http/socket-client": "2.*",
         "printnode/printnode-php": "^2.0@RC",
+        "php-http/message": "1.14.0",
         "smalot/cups-ipp": "^0.5.0"
     },
     "require-dev": {
