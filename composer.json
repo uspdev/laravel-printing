@@ -1,5 +1,5 @@
 {
-    "name": "rawilk/laravel-printing",
+    "name": "uspdev/laravel-printing",
     "description": "Direct printing for Laravel apps",
     "keywords": [
         "rawilk",
@@ -11,7 +11,7 @@
         "Direct printing",
         "Raw printing"
     ],
-    "homepage": "https://github.com/rawilk/laravel-printing",
+    "homepage": "https://github.com/uspdev/laravel-printing",
     "license": "MIT",
     "authors": [
         {
